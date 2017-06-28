@@ -15,6 +15,10 @@ gem 'merit'
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
 
+# Used to test performance
+gem 'rails-perftest'
+gem 'ruby-prof', '~> 0.15.9'
+
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'

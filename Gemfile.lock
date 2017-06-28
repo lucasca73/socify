@@ -329,6 +329,7 @@ GEM
       nokogiri (~> 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-perftest (0.0.7)
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
@@ -367,6 +368,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
+    ruby-prof (0.15.9)
     ruby_dep (1.5.0)
     sanitize (4.4.0)
       crass (~> 1.0.2)
@@ -442,7 +444,9 @@ DEPENDENCIES
   public_activity
   puma
   rails (= 5.0.2)
+  rails-perftest
   rails_12factor
+  ruby-prof (~> 0.15.9)
   sanitize
   sass-rails (~> 5.0.0)
   spring
@@ -455,4 +459,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.14.6
+   1.15.1
